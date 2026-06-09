@@ -1888,6 +1888,159 @@ width:100%;
     transform: translateY(-5px) scale(1.1);
 }
 
+.process-section{
+padding:100px 0;
+background:#fff;
+}
+
+.process-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:60px;
+align-items:center;
+}
+
+.process-image img{
+width:100%;
+border-radius:18px;
+box-shadow:0 15px 40px rgba(0,0,0,.1);
+}
+
+.process-item{
+margin-top:25px;
+padding-left:20px;
+border-left:4px solid #0A4D8C;
+}
+
+.case-study-section{
+padding:100px 0;
+background:#eef6ff;
+}
+
+.case-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:60px;
+align-items:center;
+}
+
+.case-image img{
+width:100%;
+border-radius:18px;
+}
+
+.case-stats{
+display:flex;
+gap:40px;
+margin-top:30px;
+}
+
+.case-stats h3{
+color:#0A4D8C;
+font-size:34px;
+}
+
+/* PROCESS SECTION TYPOGRAPHY */
+
+.process-content span{
+color:#0A4D8C;
+font-size:18px;
+font-weight:700;
+letter-spacing:2px;
+display:block;
+margin-bottom:10px;
+}
+
+.process-content h2{
+font-size:56px;
+line-height:1.15;
+margin-bottom:40px;
+color:#111;
+}
+
+.process-item h4{
+font-size:24px;
+margin-bottom:10px;
+font-weight:600;
+}
+
+.process-item p{
+font-size:17px;
+line-height:1.8;
+color:#666;
+}
+
+/* CASE STUDY TYPOGRAPHY */
+
+.case-content span{
+color:#0A4D8C;
+font-size:18px;
+font-weight:700;
+letter-spacing:2px;
+display:block;
+margin-bottom:10px;
+}
+
+.case-content h2{
+font-size:56px;
+line-height:1.15;
+margin-bottom:25px;
+color:#111;
+}
+
+.case-content p{
+font-size:18px;
+line-height:1.9;
+color:#666;
+}
+
+.case-stats h3{
+font-size:50px;
+font-weight:700;
+color:#0A4D8C;
+}
+
+.case-stats p{
+font-size:16px;
+margin-top:5px;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+.process-grid,
+.case-grid{
+grid-template-columns:1fr;
+}
+
+.process-content h2,
+.case-content h2{
+font-size:38px;
+text-align:center;
+}
+
+.process-content,
+.case-content{
+text-align:center;
+}
+
+.process-item{
+text-align:left;
+}
+
+.case-stats{
+justify-content:center;
+flex-wrap:wrap;
+gap:30px;
+}
+
+.case-stats h3{
+font-size:38px;
+}
+
+}
+
 </style>
 </head>
 
@@ -1933,13 +2086,13 @@ width:100%;
 <section class="about-hero">
 
 <video autoplay muted loop playsinline class="about-video">
-<source src="assets/videos/hero_bg.mp4" type="video/mp4">
+<source src="assets/videos/about_bg.mp4" type="video/mp4">
 </video>
 
 <div class="about-overlay"></div>
 
 <div class="container about-hero-content">
-<h1>Helping Businesses Grow with Result-Driven Digital Marketing</h1>
+<h1>About Us</h1>
 <p>We provide powerful digital marketing solutions that help businesses increase visibility, generate leads, and grow revenue online.</p>
 </div>
 
@@ -2003,6 +2156,86 @@ Stackly is a leading digital marketing agency helping businesses grow through SE
 <div class="service-icon"><i class="fa-solid fa-clock"></i></div>
 <h3>Google Ads (PPC)</h3>
 <p>Generate more leads and sales through highly targeted Google Ads campaigns.</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="process-section">
+    <div class="container process-grid">
+
+        <div class="process-content">
+            <span>OUR PROCESS</span>
+            <h2>How We Grow Your Business</h2>
+
+            <div class="process-item">
+                <h4>01. Research & Strategy</h4>
+                <p>We analyze your business, competitors and audience.</p>
+            </div>
+
+            <div class="process-item">
+                <h4>02. Campaign Execution</h4>
+                <p>Launch SEO, PPC and social media campaigns.</p>
+            </div>
+
+            <div class="process-item">
+                <h4>03. Optimization</h4>
+                <p>Monitor performance and improve results continuously.</p>
+            </div>
+
+            <div class="process-item">
+                <h4>04. Scale Growth</h4>
+                <p>Increase leads, conversions and revenue.</p>
+            </div>
+        </div>
+
+        <div class="process-image">
+            <img src="assets/images/digital8.webp" alt="">
+        </div>
+
+    </div>
+</section>
+
+<section class="case-study-section">
+
+<div class="container case-grid">
+
+<div class="case-image">
+<img src="assets/images/digital24.webp" alt="">
+</div>
+
+<div class="case-content">
+
+<span>SUCCESS STORY</span>
+
+<h2>300% Increase In Leads For Our Client</h2>
+
+<p>
+Using SEO, Google Ads and Conversion Optimization,
+we helped our client increase website traffic by 250%
+and generate 300% more qualified leads.
+</p>
+
+<div class="case-stats">
+
+<div>
+<h3>250%</h3>
+<p>Traffic Growth</p>
+</div>
+
+<div>
+<h3>300%</h3>
+<p>Lead Increase</p>
+</div>
+
+<div>
+<h3>180%</h3>
+<p>Revenue Growth</p>
+</div>
+
 </div>
 
 </div>
