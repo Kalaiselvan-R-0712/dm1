@@ -1928,6 +1928,67 @@ width:100%;
     color:#0A4D8C;
 }
 
+/* =========================
+   MOBILE FOOTER ALIGN FIX
+========================= */
+
+@media (max-width:768px){
+
+    /* Top Contact Strip */
+    .arch-footer-top-item{
+        flex-direction:column;
+        text-align:center;
+        justify-content:center;
+        align-items:center;
+    }
+
+    .arch-footer-top-item i{
+        margin-bottom:10px;
+        font-size:28px;
+    }
+
+    /* Footer Main Columns */
+    .arch-footer-col{
+        text-align:center;
+    }
+
+    .arch-footer-social{
+        justify-content:center;
+    }
+
+    .arch-newsletter{
+        justify-content:center;
+    }
+
+    /* Bottom Footer */
+    .arch-footer-bottom-flex{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+        text-align:center;
+        gap:15px;
+    }
+
+    .arch-footer-bottom-flex span{
+        display:block;
+        max-width:280px;
+        line-height:1.6;
+        text-align:center;
+    }
+
+    .arch-footer-bottom-flex div{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        gap:12px;
+    }
+
+    .arch-footer-bottom a{
+        margin-left:0;
+    }
+}
+
 </style>
 </head>
 
@@ -1941,7 +2002,7 @@ width:100%;
 <div class="container nav">
 
 <a href="index.html" class="logo">
-<img src="assets/images/logo/stackly_logo.webp">
+<img src="assets/images/logo/stackly_logo.webp" alt="STACKLY_LOGO">
 </a>
 
 <div class="hamburger"><i class="fa fa-bars"></i></div>

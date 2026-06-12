@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Insurance Company | Stackly</title>
+<title>Digital Marketing Agency | Stackly</title>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
@@ -1515,6 +1515,240 @@ width:100%;
     transform:translateY(-8px) scale(1.05);
 }
 
+.brands-section{
+padding:70px 0;
+background:#fff;
+text-align:center;
+}
+
+.brands-section h2{
+margin-bottom:40px;
+font-size:32px;
+}
+
+.brands-grid{
+display:grid;
+grid-template-columns:repeat(6,1fr);
+gap:30px;
+align-items:center;
+}
+
+.brands-grid img{
+width:120px;
+margin:auto;
+filter:grayscale(100%);
+opacity:.7;
+transition:.3s;
+}
+
+.brands-grid img:hover{
+filter:none;
+opacity:1;
+}
+
+@media(max-width:768px){
+
+.brands-grid{
+grid-template-columns:repeat(2,1fr);
+}
+
+}
+
+.stats-section{
+padding:90px 0;
+background:#dbeafe;
+}
+
+.stats-grid{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:25px;
+}
+
+.stat-box{
+background:#fff;
+padding:40px;
+border-radius:18px;
+text-align:center;
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.stat-box h2{
+font-size:42px;
+color:#0A4D8C;
+margin-bottom:10px;
+}
+
+@media(max-width:768px){
+
+.stats-grid{
+grid-template-columns:1fr 1fr;
+}
+
+}
+
+.why-section{
+padding:100px 0;
+background:#fff;
+}
+
+.why-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:60px;
+align-items:center;
+}
+
+.why-image img{
+width:100%;
+border-radius:20px;
+}
+
+.why-content span{
+color:#0A4D8C;
+font-weight:600;
+}
+
+.why-content h2{
+font-size:42px;
+margin:20px 0;
+}
+
+.why-list{
+display:grid;
+gap:18px;
+margin-top:25px;
+}
+
+.why-list i{
+color:#0A4D8C;
+margin-right:10px;
+}
+
+@media(max-width:768px){
+
+.why-grid{
+grid-template-columns:1fr;
+}
+
+}
+
+.portfolio-section{
+padding:100px 0;
+background:#eef6ff;
+}
+
+.portfolio-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:30px;
+}
+
+.portfolio-card{
+background:#fff;
+border-radius:18px;
+overflow:hidden;
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.portfolio-card img{
+width:100%;
+height:260px;
+object-fit:cover;
+}
+
+.portfolio-card h3{
+padding:20px 20px 10px;
+}
+
+.portfolio-card p{
+padding:0 20px 20px;
+color:#666;
+}
+
+@media(max-width:768px){
+
+.portfolio-grid{
+grid-template-columns:1fr;
+}
+
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.section-title h2{
+    font-size:42px;
+    margin-bottom:15px;
+}
+
+.section-title p{
+    color:#666;
+}
+
+/* =========================
+   MOBILE FOOTER ALIGN FIX
+========================= */
+
+@media (max-width:768px){
+
+    /* Top Contact Strip */
+    .arch-footer-top-item{
+        flex-direction:column;
+        text-align:center;
+        justify-content:center;
+        align-items:center;
+    }
+
+    .arch-footer-top-item i{
+        margin-bottom:10px;
+        font-size:28px;
+    }
+
+    /* Footer Main Columns */
+    .arch-footer-col{
+        text-align:center;
+    }
+
+    .arch-footer-social{
+        justify-content:center;
+    }
+
+    .arch-newsletter{
+        justify-content:center;
+    }
+
+    /* Bottom Footer */
+    .arch-footer-bottom-flex{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+        text-align:center;
+        gap:15px;
+    }
+
+    .arch-footer-bottom-flex span{
+        display:block;
+        max-width:280px;
+        line-height:1.6;
+        text-align:center;
+    }
+
+    .arch-footer-bottom-flex div{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        gap:12px;
+    }
+
+    .arch-footer-bottom a{
+        margin-left:0;
+    }
+}
+
 </style>
 </head>
 
@@ -1528,7 +1762,7 @@ width:100%;
 <div class="container nav">
 
 <a href="index.html" class="logo">
-<img src="assets/images/logo/stackly_logo.webp">
+<img src="assets/images/logo/stackly_logo.webp" alt="STACKLY_LOGO">
 </a>
 
 <div class="hamburger"><i class="fa fa-bars"></i></div>
@@ -1577,22 +1811,22 @@ width:100%;
 
 <div class="float-card card-left">
 ⭐ 4.9 Rating <br>
-<small>From 7k+ Customers</small>
+<small>From 500+ Clients</small>
 </div>
 
 <div class="float-card card-right">
-🛡️ Certified Insurance Advisors
+🚀 Google Certified Marketers
 </div>
 
 <div class="float-card card-bottom-left">
-🏆 New Policy <br>
-<small>Family Protection Plan</small>
+🏆 New Campaign <br>
+<small>250% ROI Growth</small>
 </div>
 
 <div class="float-card card-hired">
-<img src="assets/images/team-1.webp">
-<strong>Insurance Claimed</strong><br>
-<small>Happy Customer</small>
+<img src="assets/images/FJ4_2_11zon.webp">
+<strong>500+ Leads Generated</strong><br>
+<small>Talented Team</small>
 </div>
 
 </div>
@@ -1600,25 +1834,25 @@ width:100%;
 <!-- TEXT SECOND -->
 <div class="hero-text">
 
-<small>Protect What Matters Most</small>
+<small>Grow Your Business Online</small>
 
 <h1>
-Trusted <br> Insurance Solutions<br>
-For Your Family & Business
+Result-Driven <br> Digital Marketing<br>
+For Brands & Businesses
 </h1>
 
 <form class="search-box" id="jobSearchForm">
 
 <div class="search-field">
 <i class="fa fa-search"></i>
-<input type="text" id="jobTitle" placeholder="Insurance Type (Life, Health...)">
+<input type="text" id="jobTitle" placeholder="Service (SEO, PPC, Social Media...)">
 </div>
 
 <div class="divider"></div>
 
 <div class="search-field">
 <i class="fa fa-location-dot"></i>
-<input type="text" id="jobLocation" placeholder="Your Location">
+<input type="text" id="jobLocation" placeholder="Business Industry">
 </div>
 
 <button class="search-btn">Search</button>
@@ -1626,8 +1860,30 @@ For Your Family & Business
 </form>
 
 <div class="keywords">
-<strong>Top Policies:</strong>
-Life Insurance, Health Insurance, Vehicle Insurance, Business Insurance
+<strong>Top Services:</strong>
+SEO, Social Media Marketing, Google Ads, Content Marketing
+</div>
+
+
+</div>
+
+</section>
+
+<section class="brands-section">
+
+<div class="container">
+
+<h2>Trusted By Leading Brands</h2>
+
+<div class="brands-grid">
+
+<img src="assets/images/google.webp">
+<img src="assets/images/meta.webp">
+<img src="assets/images/shopify.webp">
+<img src="assets/images/adobe.webp">
+<img src="assets/images/amazon.webp">
+<img src="assets/images/hubspot.webp">
+
 </div>
 
 </div>
@@ -1639,7 +1895,7 @@ Life Insurance, Health Insurance, Vehicle Insurance, Business Insurance
 
 <div class="about-left">
 
-<img src="assets/images/JJ.webp" class="about-main">
+<img src="assets/images/FJ2_6_11zon.webp" class="about-main">
 
 <div class="avatar av1"><img src="assets/images/card1.webp"></div>
 <div class="avatar av2"><img src="assets/images/card3.webp"></div>
@@ -1647,7 +1903,7 @@ Life Insurance, Health Insurance, Vehicle Insurance, Business Insurance
 <div class="avatar av4"><img src="assets/images/card5.webp"></div>
 
 <div class="video-box">
-<img src="assets/images/donation-3.webp">
+<img src="assets/images/FJ3_1_11zon.webp">
 <a href="404.html" class="play">
 <i class="fa fa-play"></i>
 </a>
@@ -1672,16 +1928,16 @@ d="M 100,100 m -70,0 a 70,70 0 1,1 140,0 a 70,70 0 1,1 -140,0"/>
 
 <div class="about-right">
 
-<h2>Over <span>10,000+</span> Policies Successfully Delivered</h2>
+<h2>Over <span>500+</span> Successful Marketing Campaigns Delivered</h2>
 
 <p>
-Get personalized insurance solutions from experienced advisors. <br> We help individuals, families, and businesses stay protected.
+Get data-driven digital marketing solutions from industry experts. <br> We help businesses generate traffic, leads, and sales online.
 </p>
 
 <ul>
-<li><i class="fa fa-check"></i> Comprehensive Life & Health Coverage</li>
-<li><i class="fa fa-check"></i> Affordable Premium Plans</li>
-<li><i class="fa fa-check"></i> 24/7 Claims Support Assistance</li>
+<li><i class="fa fa-check"></i> SEO & Organic Growth Strategies</li>
+<li><i class="fa fa-check"></i> Affordable Marketing Packages</li>
+<li><i class="fa fa-check"></i> 24/7 Campaign Monitoring & Support</li>
 </ul>
 
 <a href="404.html" class="about-btn">About us</a>
@@ -1696,64 +1952,141 @@ Get personalized insurance solutions from experienced advisors. <br> We help ind
 <div class="container">
 
 <div class="services-title">
-<h2>Our Insurance Services</h2>
+<h2>Our Digital Marketing Services</h2>
 <p>Explore our trusted insurance solutions for individuals and businesses</p>
 </div>
 
 <div class="services-grid">
 
 <div class="service-card">
-<div class="service-icon"><i class="fa-solid fa-shield-heart"></i></div>
-<h3>Life Insurance</h3>
+<div class="service-icon"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
+<h3>Search Engine Optimization</h3>
 
 <p>
-Secure your family's financial future with comprehensive life insurance coverage and long-term protection.
+Improve your website rankings and drive organic traffic with proven SEO strategies.
 </p>
 </div>
 
 <div class="service-card">
-<div class="service-icon"><i class="fa-solid fa-heart-pulse"></i></div>
-<h3>Health Insurance</h3>
+<div class="service-icon"><i class="fa-solid fa-hashtag"></i></div>
+<h3>Social Media Marketing</h3>
 
 <p>
-Get access to quality healthcare with affordable health insurance plans tailored to your needs.
+Build brand awareness and engage your audience across social media platforms.
 </p>
 </div>
 
 <div class="service-card">
-<div class="service-icon"><i class="fa-solid fa-car"></i></div>
-<h3>Vehicle Insurance</h3>
+<div class="service-icon"><i class="fa-solid fa-bullhorn"></i></div>
+<h3>Google Ads (PPC)</h3>
 
 <p>
-Protect your car or bike against accidents, theft, and unexpected damages with reliable coverage.
+Generate instant leads and maximize ROI through targeted Google Ads campaigns.
 </p>
 </div>
 
 <div class="service-card">
-<div class="service-icon"><i class="fa-solid fa-house"></i></div>
-<h3>Home Insurance</h3>
+<div class="service-icon"><i class="fa-solid fa-pen-nib"></i></div>
+<h3>Content Marketing</h3>
 
 <p>
-Safeguard your home and valuable assets against natural disasters, fire, and unforeseen events.
+Create valuable content that attracts, educates, and converts potential customers.
 </p>
 </div>
 
 <div class="service-card">
-<div class="service-icon"><i class="fa-solid fa-building-shield"></i></div>
-<h3>Business Insurance</h3>
+<div class="service-icon"><i class="fa-solid fa-envelope-open-text"></i></div>
+<h3>Email Marketing</h3>
 
 <p>
-Protect your business from operational risks, liabilities, and financial uncertainties.
+Reach your audience directly with email campaigns that boost conversions.
 </p>
 </div>
 
 <div class="service-card">
-<div class="service-icon"><i class="fa-solid fa-plane"></i></div>
-<h3>Travel Insurance</h3>
+<div class="service-icon"><i class="fa-solid fa-laptop-code"></i></div>
+<h3>Web Design & Development</h3>
 
 <p>
-Travel confidently with coverage for medical emergencies, trip cancellations, and baggage loss.
+Build modern, responsive, and conversion-focused websites for your business.
 </p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="why-section">
+
+<div class="container why-grid">
+
+<div class="why-image">
+
+<img src="assets/images/marketing-team.webp">
+
+</div>
+
+<div class="why-content">
+
+<span>WHY CHOOSE US</span>
+
+<h2>
+We Deliver Results,
+Not Just Clicks
+</h2>
+
+<p>
+Our marketing strategies focus on generating leads,
+sales and long-term business growth.
+</p>
+
+<div class="why-list">
+
+<div><i class="fa fa-check"></i> Google Certified Experts</div>
+
+<div><i class="fa fa-check"></i> ROI Focused Campaigns</div>
+
+<div><i class="fa fa-check"></i> Dedicated Account Managers</div>
+
+<div><i class="fa fa-check"></i> 24/7 Support</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="portfolio-section">
+
+<div class="container">
+
+<div class="section-title">
+    <h2>Recent Marketing Projects</h2>
+    <p>Explore some of our latest successful campaigns</p>
+</div>
+
+<div class="portfolio-grid">
+
+<div class="portfolio-card">
+<img src="assets/images/digital19.webp">
+<h3>Ecommerce Growth</h3>
+<p>+320% Sales Increase</p>
+</div>
+
+<div class="portfolio-card">
+<img src="assets/images/digital18.webp">
+<h3>SEO Campaign</h3>
+<p>+500% Organic Traffic</p>
+</div>
+
+<div class="portfolio-card">
+<img src="assets/images/digital15.webp">
+<h3>Lead Generation</h3>
+<p>1200 Leads Generated</p>
 </div>
 
 </div>
@@ -1807,7 +2140,7 @@ Travel confidently with coverage for medical emergencies, trip cancellations, an
 </a>
 
 <p>
-Stackly is a trusted insurance company helping individuals, families, and businesses stay protected through comprehensive insurance solutions.
+Stackly is a leading digital marketing agency helping businesses increase visibility, generate leads, and boost revenue through proven marketing strategies.
 </p>
 
 <div class="arch-footer-social">
@@ -1852,11 +2185,11 @@ Stackly is a trusted insurance company helping individuals, families, and busine
 <div class="arch-footer-col">
 <h3>Our Services</h3>
 <ul>
-<li><a href="404.html">Life Insurance</a></li>
-<li><a href="404.html">Health Insurance</a></li>
-<li><a href="404.html">Vehicle Insurance</a></li>
-<li><a href="404.html">Home Insurance</a></li>
-<li><a href="404.html">Business Insurance</a></li>
+<li><a href="404.html">SEO Optimization</a></li>
+<li><a href="404.html">Social Media Marketing</a></li>
+<li><a href="404.html">Google Ads (PPC)</a></li>
+<li><a href="404.html">Content Marketing</a></li>
+<li><a href="404.html">Email Marketing</a></li>
 </ul>
 </div>
 
@@ -1864,7 +2197,7 @@ Stackly is a trusted insurance company helping individuals, families, and busine
 <div class="arch-footer-col">
 <h3>Newsletter</h3>
 
-<p>Subscribe for insurance updates, offers & protection tips</p>
+<p>Subscribe for digital marketing insights, SEO tips & growth strategies</p>
 
 <form class="arch-newsletter" id="newsletterForm">
 
@@ -1889,7 +2222,7 @@ required
 
 <div class="arch-footer-bottom-flex">
 
-<span>© 2026 Stackly Insurance Company. All Rights Reserved.</span>
+<span>© 2026 Stackly Digital Marketing Agency. All Rights Reserved.</span>
 
 <div>
 <a href="404.html">Privacy Policy</a>
