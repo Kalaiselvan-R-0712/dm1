@@ -497,6 +497,16 @@ password.addEventListener("input", () => {
     passError.style.display = "none";
 });
 
+const userData = {
+    role: selectedRole,
+    email: emailInput.value
+};
+
+localStorage.setItem(
+    "userData",
+    JSON.stringify(userData)
+);
+
 </script>
 
 </body>

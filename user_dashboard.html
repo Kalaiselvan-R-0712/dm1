@@ -265,6 +265,27 @@ cursor:pointer;
     transition:all .3s ease;
 }
 
+@media (max-width: 768px) {
+    .mobile-hide {
+        display: none !important;
+    }
+}
+
+@media (max-width:768px){
+
+    #profileName{
+        font-size:14px;
+        font-weight:600;
+    }
+
+    #profileEmail{
+        font-size:10px;
+        color:#999;
+        max-width:130px;
+        overflow-wrap:anywhere;
+    }
+
+}
     </style>
 </head>
 
@@ -281,8 +302,8 @@ cursor:pointer;
     </div>
 
     <div class="profile">
-        <i class="fa-regular fa-bell" onclick="go404()" style="cursor: pointer; font-size: 18px;"></i>
-        <i class="fa-regular fa-circle-user" 
+        <i class="fa-regular fa-bell mobile-hide" onclick="go404()" style="cursor: pointer; font-size: 18px;"></i>
+        <i class="fa-regular fa-circle-user mobile-hide" 
    onclick="go404()" 
    style="font-size: 22px; cursor: pointer;"></i>
         <div>
